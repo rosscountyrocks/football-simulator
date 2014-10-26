@@ -1,7 +1,7 @@
-var playMatch = function() {
-  var teamone="arsenal" ;
-  var teamtwo="real madrid";
-  var scoreone;
+var maxscore = 4;
+
+var playMatch = function(teamone, teamtwo) {
+    var scoreone;
   var scoretwo;
 
   scoreone = generateScore();
@@ -12,6 +12,8 @@ var playMatch = function() {
 
   if (scoreone > scoretwo) {
     console.log(teamone + " won!");
+  } else if (scoreone == scoretwo) {
+    console.log("its a draw!")
   } else {
     console.log(teamtwo + " won!");
   }
