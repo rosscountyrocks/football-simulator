@@ -34,3 +34,14 @@
 	width: 300px;
 	height: 36px;
 }
+
+#feedback-content {
+	padding-top: 50px;
+	text-align: center;
+	background-color: white;
+	top: 500px;
+	left: 200px;
+	position: absolute;
+	width: 69%;
+	height: 80px;
+}
