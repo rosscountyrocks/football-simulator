@@ -3,7 +3,7 @@ var maxscore = 4;
 var playMatch = function(teamone, teamtwo) {
   var scoreone;
   var scoretwo;
-
+      
   ClearFeedback();
 
   scoreone = generateScore();
