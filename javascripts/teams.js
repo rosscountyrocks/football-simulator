@@ -145,8 +145,9 @@ teamlist = [
 ];
 
 $(document).ready(function() {
-  return $.each(teamlist, function(key, team) {
+  $.each(teamlist, function(key, team) {
     $("#home-team").append("<option value='" + team.id + "'>" + team.name + "</option>");
     return $("#away-team").append("<option value='" + team.id + "'>" + team.name + "</option>");
   });
+  return $("#away-team").val(44);
 });

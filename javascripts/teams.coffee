@@ -167,3 +167,5 @@ $(document).ready ->
 	$.each teamlist, (key,team) ->
 		$("#home-team").append("<option value='" + team.id + "'>" + team.name  + "</option>")
 		$("#away-team").append("<option value='" + team.id + "'>" + team.name  + "</option>")
+
+	$("#away-team").val(44)
