@@ -45,3 +45,13 @@
 	width: 69%;
 	height: 80px;
 }
+#home-team-logo {
+	width: 225px;
+	left: 225px;
+	position: absolute;
+}
+#away-team-logo {
+  width: 125px;
+  right: 290px;
+	position: absolute;
+}
